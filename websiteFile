@@ -1,0 +1,33 @@
+javascript
+
+<html>
+    <title>My Home Page</title>
+     <head>
+      <script src="fnAlerts.js"></script>
+    </head>
+
+    <body>
+        <p>City I want to visit and my favorite city</p>
+        <img src="miami.jpg" onmouseover="src='NewYork.jpg'" onmouseout="src='miami.jpg'">
+        <br>
+        <h1>Information</h1>
+        Email: <br>
+        <input type="text" size="50"
+        onfocus="this.style.backgroundColor = 'white'"
+        onclick="this.style.backgroundColor = 'green'"
+        onmouseout="this.style.backgroundColor = 'white'">
+        <br>
+        First Name: <br>
+        <input type="text" size="50"
+        onfocus="this.style.backgroundColor = 'white'"
+        onclick="this.style.backgroundColor = 'green'"
+        onmouseout="this.style.backgroundColor = 'white'">
+        <br>
+        Last Name: <br>
+        <input type="text" size="50"
+        onfocus="this.style.backgroundColor = 'white'"
+        onclick="this.style.backgroundColor = 'green'"
+        onmouseout="this.style.backgroundColor = 'white'">
+        <br>
+        
+    </body>
